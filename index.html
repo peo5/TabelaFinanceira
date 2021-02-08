@@ -1,0 +1,33 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", "initial-scale=1.0">
+    <title>Planilha Financeira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200;600&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="nest">
+        <div id="options" class="container">
+            <label>
+                Período<br>
+                <input type="number" id="periodo" value="10">
+            </label>
+            <label>
+                Taxa de juros<br>
+                <input type="number" id="taxa" value="5">
+            </label>
+            <label>
+                Dívida inicial<br>
+                <input type="number" id="divida" value="50000">
+            </label>
+            <button id="normal" style="display: none;">Normal</button>
+            <button id="sac" class="selected">SAC</button>
+            <button id="price">Price</button>
+        </div>
+        <div id="table_container" class="container"></div>
+    </div>
+    <div id="grupo">Grupo: Pedro Simões e Vinícius Assis <br>Turma: INF 2A</div>
+    <script src="main.js"></script>
+</body>
+</html>
